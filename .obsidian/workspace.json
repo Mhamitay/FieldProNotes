@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001- FieldPro/1- System/02- Environments.md",
+                "file": "002- Personal/Info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02- Environments"
+              "title": "Info"
             }
           }
         ],
@@ -195,6 +195,10 @@
   },
   "active": "7ffbc534a51d6153",
   "lastOpenFiles": [
+    "001- FieldPro/1- System/04- North VS South.md",
+    "001- FieldPro/1- System/03- System Workflows.md",
+    "001- FieldPro/1- System/01- System Overview.md",
+    "001- FieldPro/1- System/02- Environments.md",
     "Untitled 4.base",
     "Untitled 5.base",
     "Untitled 3.base",
@@ -205,22 +209,18 @@
     "001- FieldPro/2- Scrum Meetings/2025/03- July/Week 1/🧠2025-07-02.md",
     "001- FieldPro/2- Scrum Meetings/2025/01- May/🚀2025-05-21.md",
     "001- FieldPro/1- System/Untitled 1.md",
-    "001- FieldPro/1- System/02- Environments.md",
     "001- FieldPro/2- Scrum Meetings/2026/2026-Jan.md",
     "001- FieldPro/Follow Up info.md",
     "001- FieldPro/2- Scrum Meetings/00- Scrum Daily Meetings.md",
     "001- FieldPro/2- Scrum Meetings/2026",
     "001- FieldPro/Notes - Copy.md",
     "002- Personal/Info.md",
-    "001- FieldPro/1- System/04- North VS South.md",
-    "001- FieldPro/1- System/03- System Workflows.md",
     "Untitled.base",
     "001- FieldPro/1- System/Understanding the RiseFSM Codebase A Guided Approach.md",
     "Testing staging.md",
     "001- FieldPro/2- Canvas/Untitled.canvas",
     "001- FieldPro/1- System/RiseFSM Project Analysis Areas for Improvement.md",
     "001- FieldPro/1- System/RiseFSM Project Analysis.md",
-    "001- FieldPro/1- System/01- System Overview.md",
     "001- FieldPro/1- System/00- FieldPro - Start.md",
     "001- FieldPro/2- Canvas/p1.canvas",
     "001- FieldPro/Notes.md",
@@ -241,7 +241,6 @@
     "001- FieldPro/1- System/New folder",
     "p1 - Copy.canvas",
     "Untitled - Copy.canvas",
-    "001- FieldPro/2- Scrum Meetings/2025/04- Aug/Week 4",
     "Pasted image 20250711141729.png",
     "Pasted image 20250711141934.png",
     "Pasted image 20250726202705.png",
