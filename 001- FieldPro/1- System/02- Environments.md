@@ -22,4 +22,5 @@
 	amd script to fix it.
 	3624 - Detailed Timesheet Report. got the data right
 	i just need to get the job log duration column
+	SSS
 	
