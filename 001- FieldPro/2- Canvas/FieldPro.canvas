@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"503fbcda0f5d91f2","type":"group","x":-1960,"y":80,"width":2120,"height":960,"color":"3","label":"BackEnd"},
+		{"id":"17dfb42deb7c131b","type":"group","x":-1960,"y":-360,"width":2120,"height":280,"color":"2","label":"FrontEnd"},
+		{"id":"cd6187fa6374fb10","type":"group","x":-1920,"y":720,"width":748,"height":260,"label":"Database"},
+		{"id":"a9e86c17866cf480","type":"group","x":-1100,"y":280,"width":410,"height":280,"label":"Domain Actions"},
+		{"id":"e8a4f6ad339d859c","type":"text","text":"Use EF Context","x":-1925,"y":420,"width":250,"height":50},
+		{"id":"0c571dcd8a084a7a","type":"text","text":"Domains","x":-1630,"y":420,"width":250,"height":50},
+		{"id":"730a04f1332ef222","type":"text","text":"# User 1","x":-1675,"y":-320,"width":210,"height":80,"color":"4"},
+		{"id":"6d1960457564f018","type":"text","text":"# User2","x":-1425,"y":-320,"width":210,"height":80,"color":"4"},
+		{"id":"e8af5da9cfed3ce0","type":"text","text":"Tables","x":-1895,"y":760,"width":250,"height":60},
+		{"id":"629020affc0db8bd","type":"text","text":"# FrontEnd","x":-1925,"y":-200,"width":2045,"height":80,"color":"3"},
+		{"id":"dcf102c661f962b5","type":"text","text":"Models","x":-1505,"y":560,"width":250,"height":60},
+		{"id":"bda5627ffca9a309","type":"text","text":"Controllers\n- One\n- List\n- List/Grid\n- Save\n- Delete\n- Extra","x":-1422,"y":100,"width":250,"height":280},
+		{"id":"5b6ea751e7100b27","type":"file","file":"100 -Storage/Domain Validation.md","x":-1067,"y":350,"width":350,"height":50},
+		{"id":"95dd5bf13865408c","type":"text","text":"- Select Data\n- Update Data\n- Delete Data","x":-1067,"y":410,"width":350,"height":120},
+		{"id":"ad63bde6bba1752e","type":"text","text":"Views","x":-1475,"y":760,"width":250,"height":60},
+		{"id":"badbb79c0ebcccfe","type":"text","text":"Stored Procs","x":-1475,"y":880,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"04f71537234896d7","fromNode":"0c571dcd8a084a7a","fromSide":"right","toNode":"95dd5bf13865408c","toSide":"left","color":"2"},
+		{"id":"2e2e9c51379e441f","fromNode":"0c571dcd8a084a7a","fromSide":"right","toNode":"5b6ea751e7100b27","toSide":"left","color":"2"},
+		{"id":"fdf04184e5b7644c","fromNode":"a9e86c17866cf480","fromSide":"right","toNode":"badbb79c0ebcccfe","toSide":"right","fromEnd":"arrow","color":"2","label":"Get Data"},
+		{"id":"3e47668d63a7a1ab","fromNode":"badbb79c0ebcccfe","fromSide":"top","toNode":"ad63bde6bba1752e","toSide":"bottom"},
+		{"id":"103c9335243e2012","fromNode":"ad63bde6bba1752e","fromSide":"left","toNode":"e8af5da9cfed3ce0","toSide":"right"},
+		{"id":"66d386bf94f6fca8","fromNode":"95dd5bf13865408c","fromSide":"bottom","toNode":"dcf102c661f962b5","toSide":"right","color":"5","label":"Populate Modles"},
+		{"id":"b9749ab1535459ea","fromNode":"bda5627ffca9a309","fromSide":"left","toNode":"e8a4f6ad339d859c","toSide":"top","fromEnd":"arrow","color":"1"},
+		{"id":"5def7c3ae003c278","fromNode":"bda5627ffca9a309","fromSide":"left","toNode":"0c571dcd8a084a7a","toSide":"top","fromEnd":"arrow","color":"2"},
+		{"id":"ff3019a798a7b1fb","fromNode":"dcf102c661f962b5","fromSide":"left","toNode":"0c571dcd8a084a7a","toSide":"bottom","color":"5"},
+		{"id":"5cb3e02d3bfa7372","fromNode":"e8a4f6ad339d859c","fromSide":"bottom","toNode":"ad63bde6bba1752e","toSide":"top","color":"1"},
+		{"id":"4231e446731ed5b9","fromNode":"ad63bde6bba1752e","fromSide":"top","toNode":"dcf102c661f962b5","toSide":"right","color":"4"},
+		{"id":"a76bdee2952dbd43","fromNode":"dcf102c661f962b5","fromSide":"left","toNode":"e8a4f6ad339d859c","toSide":"bottom","color":"4"},
+		{"id":"7a5d638cc6cbb14a","fromNode":"bda5627ffca9a309","fromSide":"right","toNode":"17dfb42deb7c131b","toSide":"bottom","fromEnd":"arrow","color":"#ffffff","label":"http request"}
+	]
+}

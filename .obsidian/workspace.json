@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "14eb4f0a19ae98e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "98ec1d39df49bb31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d22c6a6809afc50",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled 3.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 3"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c65f23e37a0fe4d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7788009b812af160",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11c7307924fda9fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d0012ccf23226699",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "39efc3fe6338bae3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 258.5
+  },
+  "right": {
+    "id": "51faa0fd58cab46b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4c7d0e33f8cd455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01f7fe4b6c5adb25",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Scrum Meetings/2025/01- May/🚀 2025-05-12.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 🚀 2025-05-12"
+            }
+          },
+          {
+            "id": "91cd79b694da2d4b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "001- FieldPro/2- Scrum Meetings/2025/04- Aug/Week 2/2025-08-11 Mon.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-08-11 Mon"
+            }
+          },
+          {
+            "id": "a9cecb424896c8f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d82e355045b2100d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "001- FieldPro/2- Scrum Meetings/2026/2026-01-14.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-01-14"
+            }
+          },
+          {
+            "id": "3c1bf95ba54c2f8b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "6c62a51b5d17b7c4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 460.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "rollover-weekly-todo:RollOver weekly todos": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3d22c6a6809afc50",
+  "lastOpenFiles": [
+    "Untitled 3.base",
+    "2026-01-28.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "001- FieldPro/1- System/RiseFSM Project Overview.md",
+    "001- FieldPro/2- Scrum Meetings/2025/03- July/Week 1/🧠2025-07-02.md",
+    "001- FieldPro/2- Scrum Meetings/2025/01- May/🚀2025-05-21.md",
+    "001- FieldPro/1- System/Untitled 1.md",
+    "001- FieldPro/1- System/02- Environments.md",
+    "001- FieldPro/2- Scrum Meetings/2026/2026-Jan.md",
+    "001- FieldPro/Follow Up info.md",
+    "001- FieldPro/2- Scrum Meetings/00- Scrum Daily Meetings.md",
+    "001- FieldPro/2- Scrum Meetings/2026",
+    "001- FieldPro/Notes - Copy.md",
+    "002- Personal/Info.md",
+    "001- FieldPro/1- System/04- North VS South.md",
+    "001- FieldPro/1- System/03- System Workflows.md",
+    "Untitled.base",
+    "001- FieldPro/1- System/Understanding the RiseFSM Codebase A Guided Approach.md",
+    "Testing staging.md",
+    "001- FieldPro/2- Canvas/Untitled.canvas",
+    "001- FieldPro/1- System/RiseFSM Project Analysis Areas for Improvement.md",
+    "001- FieldPro/1- System/RiseFSM Project Analysis.md",
+    "001- FieldPro/1- System/01- System Overview.md",
+    "001- FieldPro/1- System/00- FieldPro - Start.md",
+    "001- FieldPro/2- Canvas/p1.canvas",
+    "001- FieldPro/Notes.md",
+    "Pasted image 20251106154943.png",
+    "Pasted image 20251106151145.png",
+    "Pasted image 20251106150933.png",
+    "Pasted image 20251106150830.png",
+    "Pasted image 20250912113301.png",
+    "Pasted image 20250807114118.png",
+    "p2.canvas",
+    "Untitled 2.md",
+    "README.md",
+    "001- FieldPro/2- Scrum Meetings/2025/04- Aug/Week 4/2025-09-09.md",
+    "001- FieldPro/2- Scrum Meetings/2025/05- Oct",
+    "001- FieldPro/2- Scrum Meetings/2025/04- Aug/Week 4/2025-09-02.md",
+    "001- FieldPro/1- System/New folder/RiseFSM-Complete-Guide.md",
+    "001- FieldPro/1- System/New folder/RiseFSM-Architecture-Summary.txt",
+    "001- FieldPro/1- System/New folder",
+    "p1 - Copy.canvas",
+    "Untitled - Copy.canvas",
+    "001- FieldPro/2- Scrum Meetings/2025/04- Aug/Week 4",
+    "Vaults/FieldPro/FieldPro",
+    "Vaults/FieldPro",
+    "Pasted image 20250711141729.png",
+    "Pasted image 20250711141934.png",
+    "Pasted image 20250726202705.png",
+    "Pasted image 20250711141809.png",
+    "001- FieldPro/2- Canvas/FieldPro.canvas",
+    "001- FieldPro/2- Canvas/TestCanvas.canvas"
+  ]
+}

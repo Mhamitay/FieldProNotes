@@ -1,0 +1,40 @@
+RiseFSM System Architecture Summary
+===================================
+
+SYSTEM TYPE: Field Service Management for Oil & Gas Industry
+TECHNOLOGY: .NET 6 Razor Pages, Vue.js 2, SQL Server
+ARCHITECTURE: Multi-tenant, Offline-first, Domain-driven
+
+CORE BUSINESS ENTITIES:
+======================
+
+1. Cost Items (tcCostItem) - Master service catalog
+2. Price Items (tcPriceItem) - Customer-specific pricing
+3. Jobs (tJob) - Central work orders
+4. Tickets (tcTicket) - Billable line items
+5. Load Out (tLoadOut) - Equipment deployment tracking
+6. Quotes (tcQuote) - Customer proposals
+
+TECHNICAL STACK:
+================
+
+Backend: .NET 6, Entity Framework Core, SQL Server
+Frontend: Vue.js 2, TypeScript, Bootstrap 4
+Data: Multi-tenant with TenantID isolation
+Offline: IndexedDB with background sync
+
+BUSINESS WORKFLOWS:
+==================
+
+Sales: Inquiry ? Quote ? Negotiation ? Award
+Operations: Planning ? Deployment ? Work ? Documentation
+Financial: Tracking ? Billing ? Invoice ? Payment
+
+KEY FEATURES:
+=============
+
+- Multi-tenant data isolation
+- Offline-first operation
+- Equipment-to-billing integration
+- Approval workflows for cost control
+- Real-time business intelligence

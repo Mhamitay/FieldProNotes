@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "FieldPro",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.3,
+  "nodeSizeMultiplier": 1.42708333333333,
+  "lineSizeMultiplier": 1.22291666666667,
+  "collapse-forces": false,
+  "centerStrength": 0.0885416666666667,
+  "repelStrength": 3.54166666666667,
+  "linkStrength": 0.078125,
+  "linkDistance": 30,
+  "scale": 0.7069023997743942,
+  "close": true
+}

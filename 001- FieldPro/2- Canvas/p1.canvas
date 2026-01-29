@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"setup","type":"text","text":"# Setup Phase\n- Define Cost Items (catalog)\n- Create Price Books (rules)\n","x":-600,"y":-400,"width":300,"height":200,"color":"3"},
+		{"id":"sales","type":"text","text":"# Sales Phase\n- Build Quotes\n- Customer approval\n","x":-200,"y":-400,"width":300,"height":200,"color":"4"},
+		{"id":"execution","type":"text","text":"# Execution Phase\n- Deploy Load Out\n- Create/approve Tickets\n","x":200,"y":-400,"width":300,"height":200,"color":"5"},
+		{"id":"billing","type":"text","text":"# Billing Phase\n- Tickets → Invoice\n- Taxes, GL integration\n","x":600,"y":-400,"width":300,"height":200,"color":"2"},
+		{"id":"price-books","type":"text","text":"## Price Books\nCustomer-specific containers\n- Master\n- Child\n- Multi-currency\n","x":-350,"y":-100,"width":250,"height":260,"color":"6"},
+		{"id":"quotes","type":"text","text":"## Quotes\nProposals/estimates\n- Multiple versions\n- Approved → Tickets\n","x":-50,"y":-100,"width":250,"height":200,"color":"4"},
+		{"id":"loadout","type":"text","text":"## Load Out\nPhysical assets\n- Company equipment\n- Rentals\n- Consumables\n","x":250,"y":-100,"width":250,"height":200,"color":"5"},
+		{"id":"tickets","type":"text","text":"## Tickets\nBillable work\n- Regular\n- Bid\n- Additional\n","x":550,"y":-100,"width":250,"height":200,"color":"salmon"},
+		{"id":"cost-items","type":"text","text":"## Cost Items\nMaster service catalog\n- Tools\n- People\n- Fleet\n- Other","x":-640,"y":-100,"width":250,"height":260,"color":"1"},
+		{"id":"intelligence","type":"text","text":"## System Intelligence\nAutomation + Rules\n- Auto-pricing\n- Approvals\n- Asset billing\n- Audit trails\n","x":525,"y":220,"width":300,"height":260,"color":"lightgrey"},
+		{"id":"jobs","type":"text","text":"## Jobs\nUmbrella record\n- Links quotes, tickets, loadout\n- Tracks workflow stages\n","x":-75,"y":250,"width":300,"height":200,"color":"violet"}
+	],
+	"edges":[
+		{"id":"setup-sales","fromNode":"setup","fromSide":"right","toNode":"sales","toSide":"left","label":"next"},
+		{"id":"sales-execution","fromNode":"sales","fromSide":"right","toNode":"execution","toSide":"left","label":"next"},
+		{"id":"execution-billing","fromNode":"execution","fromSide":"right","toNode":"billing","toSide":"left","label":"next"},
+		{"id":"setup-cost","fromNode":"setup","fromSide":"bottom","toNode":"cost-items","toSide":"top","label":"defines"},
+		{"id":"setup-books","fromNode":"setup","fromSide":"bottom","toNode":"price-books","toSide":"top","label":"creates"},
+		{"id":"sales-quotes","fromNode":"sales","fromSide":"bottom","toNode":"quotes","toSide":"top","label":"builds"},
+		{"id":"execution-loadout","fromNode":"execution","fromSide":"bottom","toNode":"loadout","toSide":"top","label":"deploys"},
+		{"id":"execution-tickets","fromNode":"execution","fromSide":"bottom","toNode":"tickets","toSide":"top","label":"creates"},
+		{"id":"jobs-quotes","fromNode":"jobs","fromSide":"top","toNode":"quotes","toSide":"bottom","label":"organizes"},
+		{"id":"jobs-tickets","fromNode":"jobs","fromSide":"top","toNode":"tickets","toSide":"bottom","label":"organizes"},
+		{"id":"jobs-loadout","fromNode":"jobs","fromSide":"top","toNode":"loadout","toSide":"bottom","label":"organizes"},
+		{"id":"tickets-intelligence","fromNode":"tickets","fromSide":"bottom","toNode":"intelligence","toSide":"top","label":"automation rules"}
+	]
+}
